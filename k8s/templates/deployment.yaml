@@ -34,3 +34,7 @@ spec:
           env:
             - name: FORCE_UPDATE
               value: "{{ .Values.force_update | default 0 }}"
+            - name: SEARCH_SERVICE
+              value: "http://dino-park-search-service/"
+            - name: ORGCHART_SERVICE
+              value: "http://dino-tree-service/"

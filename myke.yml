@@ -1,8 +1,8 @@
-project: dino-park-search
-desc: The orgchart service of DinoPark
+project: dino-park-free pass
+desc: Mock APIs of DinoPark
 env:
-  name: dino-park-search
-  image: mozillaparsys/dino-park-search
+  name: dino-park-free-pass
+  image: mozillaparsys/dino-park-free-pass
 tasks:
   package:
     cmd: docker build -t {{ .image }} .

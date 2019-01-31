@@ -18,11 +18,7 @@ spec:
   - host: dinopark-dev.allizom.community
     http:
       paths:
-      - path: /api/v3
-        backend:
-          serviceName: dino-park-free-pass-service
-          servicePort: 80
       - path: /
         backend:
-          serviceName: dino-park-front-end-service
+          serviceName: internal-router
           servicePort: 80
